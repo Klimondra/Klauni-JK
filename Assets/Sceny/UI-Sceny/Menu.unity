@@ -363,14 +363,14 @@ RectTransform:
   m_GameObject: {fileID: 606307945}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1344, y: 5.2115636, z: 3}
+  m_LocalScale: {x: 1.1344, y: 5.551335, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 926438203}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 0}
+  m_AnchoredPosition: {x: 407, y: 0}
   m_SizeDelta: {x: 322.401, y: 60.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606307947
@@ -709,7 +709,7 @@ RectTransform:
   m_GameObject: {fileID: 1736061250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1344, y: 3.3116133, z: 3}
+  m_LocalScale: {x: 1.1344, y: 3.2700527, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 926438203}
@@ -774,7 +774,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1736061254}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1736061252}
+        m_TargetAssemblyTypeName: Quit, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1736061254
 MonoBehaviour:
   m_ObjectHideFlags: 0
