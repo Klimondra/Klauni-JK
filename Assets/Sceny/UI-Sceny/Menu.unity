@@ -570,6 +570,7 @@ GameObject:
   - component: {fileID: 1515000942}
   - component: {fileID: 1515000941}
   - component: {fileID: 1515000940}
+  - component: {fileID: 1515000943}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -680,6 +681,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -21.263, y: -58.504, z: -161.537}
+--- !u!114 &1515000943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515000939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e4768e9ad66d84cba87a51c22b0790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1736061250
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +850,6 @@ GameObject:
   - component: {fileID: 2011200067}
   - component: {fileID: 2011200066}
   - component: {fileID: 2011200065}
-  - component: {fileID: 2011200068}
   m_Layer: 5
   m_Name: playBtn
   m_TagString: Untagged
@@ -908,9 +920,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2011200068}
-        m_TargetAssemblyTypeName: playBtn, Assembly-CSharp
-        m_MethodName: ButtonPressed
+      - m_Target: {fileID: 1515000943}
+        m_TargetAssemblyTypeName: next_scene, Assembly-CSharp
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -958,18 +970,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011200063}
   m_CullTransparentMesh: 1
---- !u!114 &2011200068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011200063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fda607b97538a3b4aadccf52f2c869c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

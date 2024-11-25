@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Sceny/UI-Sceny/Menu.unity
     guid: 02ca01d5778506544ae7e2a37a5f541b
   - enabled: 1
+    path: Assets/Sceny/UI-Sceny/Settings.unity
+    guid: b9cc09dc6e375cd4083d09a013bf0303
+  - enabled: 1
     path: Assets/Sceny/UI-Sceny/Start-cutscene.unity
     guid: e4211705186e6034bb88ac428b8b27b5
   - enabled: 1
