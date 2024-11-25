@@ -18830,7 +18830,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
-  jumpHeight: 1.53
+  jumpHeight: 0
 --- !u!1 &1390281118
 GameObject:
   m_ObjectHideFlags: 0
