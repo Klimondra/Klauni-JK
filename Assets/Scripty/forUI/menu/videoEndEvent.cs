@@ -2,9 +2,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
-public class VideoEndEvent : MonoBehaviour
+public partial class VideoEndEvent : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
+    public string sceneToLoadName;
 
     void Start()
     {
@@ -16,7 +17,7 @@ public class VideoEndEvent : MonoBehaviour
 
     void OnVideoEnd(VideoPlayer vp)
     {
-        SceneManager.LoadScene("Sceny/Hraci-Sceny/Prolog");
+        SceneManager.LoadScene(sceneToLoadName);
     }
 
     void OnDestroy()

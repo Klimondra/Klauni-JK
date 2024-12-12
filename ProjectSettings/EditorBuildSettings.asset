@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sceny/Hraci-Sceny/Prolog.unity
     guid: 996ba979070a9a74daead8d06afd5af2
+  - enabled: 1
+    path: Assets/Sceny/UI-Sceny/PrologDoorCutscene.unity
+    guid: 18170ba43aefdaf4abe303a035806c66
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -641,6 +641,7 @@ GameObject:
   - component: {fileID: 2048930005}
   - component: {fileID: 2048930004}
   - component: {fileID: 2048930006}
+  - component: {fileID: 2048930007}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -796,6 +797,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2048930007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048930003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1edb97a4fe7159d499d5689860eebf07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 2048930004}
+  sceneToLoadName: Menu
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

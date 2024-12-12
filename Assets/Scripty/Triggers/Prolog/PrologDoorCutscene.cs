@@ -26,7 +26,7 @@ public class PrologDoorCutscene : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.E))
             {
-                SceneManager.LoadScene("");
+                SceneManager.LoadScene("PrologDoorCutscene");
             }
         }
         else
